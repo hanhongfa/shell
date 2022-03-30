@@ -11,7 +11,7 @@ yum install libguestfs-tools-c libguestfs-tools libguestfs -y
 vi .bash_profile
 export LIBGUESTFS_BACKEND=direct
 export LANG="en_US.UTF-8"
-
+source .bash_profile
 
 ### Zstack for CentOS 8
 mkdir cloud-images
